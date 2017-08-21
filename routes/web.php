@@ -19,8 +19,8 @@ Route::get('/client/create', function () {
     return view('client.form');
 });
 
-Route::get('/disributor/create', function () {
-    return view('distributor.form');
+Route::get('/provider/create', function () {
+    return view('provider.form');
 });
 
 Route::get('/salesman/create', function () {
