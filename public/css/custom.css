@@ -1,0 +1,145 @@
+/* YOUR CUSTOM STYLES */
+
+/**
+  *||||||||||||
+  *Theme Colors
+  *||||||||||||
+  */
+body{
+  background:#9fa8da;
+}
+.navbar{
+  background:#3E4551; 
+}
+.form{
+  background:white;
+}
+.form-header{
+  background:#3E4551;
+  /*box-sizing:border-box;    */
+}
+.form-btn{
+  background:#3E4551; 
+}
+.form-btn:hover{
+  background:#212121; 
+}
+.theme-btn{
+  background:#eceff1; 
+}
+.font-light{
+  color:white;
+}
+.font-dark{
+  color:black;
+}
+
+/**
+  *|||||||||||||||||||||||||||||
+  *Materialize Form Field Colors
+  *|||||||||||||||||||||||||||||
+  */
+/* label focus color */
+.input-field input:focus + label {
+  color: #9fa8da !important;
+}  
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid #9fa8da !important;
+  box-shadow: 0 1px 0 0 #9fa8da !important
+}
+/*TextArea*/
+.input-field textarea:focus + label {
+  color: #9fa8da !important;
+}
+.row .input-field textarea:focus {
+  border-bottom: 1px solid #9fa8da !important;
+  box-shadow: 0 1px 0 0 #9fa8da !important
+}
+/*Materialize DatePicker*/
+.picker__date-display, .picker__weekday-display{
+    background-color: #1C2331;
+}
+.picker__box{
+    /*background-color: #3F729B;*/
+}
+/*Materialize Checkbox*/
+.checkbox-custom[type="checkbox"] + label:before{
+  border: 2px solid #9fa8da;
+  background: transparent;
+}
+.checkbox-custom[type="checkbox"]:checked + label:before{
+    border: 2px solid transparent;
+    border-bottom: 2px solid #9fa8da;
+    border-right: 2px solid #9fa8da;
+    background: transparent;
+}
+
+/**
+  *|||||||||||||||||||||||||
+  *Theme Margin and Paddings
+  *|||||||||||||||||||||||||
+  */
+.pad-1{
+  padding:1%; 
+}
+.pad-2{
+  padding:2%; 
+}
+.pad-3{
+  padding:3%; 
+}
+.marg-1{
+  margin:1%;
+}
+.marg-2{
+  margin:2%;
+}
+.marg-3{
+  margin:3%;
+}
+
+/**
+  *|||||||||||
+  *Theme Fonts
+  *|||||||||||
+  */
+.theme-fonts{
+  /*font-family:Courier; */
+}
+.main-heading{
+  font-size:40px;
+}
+.sub-heading-1{
+  font-size:30px;
+}
+.sub-heading-2{
+  font-size:20px;
+}
+.txt-white{
+  color:white;
+}
+.txt-black{
+  color:black;
+}
+
+/**
+  *||||||||||||||||||||
+  *Server Side Messages
+  *||||||||||||||||||||
+  */
+.error-bag{
+  background:#CC0000; 
+}
+.success-msg{
+  background:#00C851;
+}
+.info-msg{
+  background:#33b5e5;
+}
+.warning-msg{
+  background:#ffbb33;
+}
+.error-msg{
+  background:#ff4444;
+}
